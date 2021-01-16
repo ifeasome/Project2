@@ -4,8 +4,9 @@
   "description": "a site dedicated to challenging your friends to watch bad movies or donate to charity",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "npm run lint",
+    "start": "node server.js",
+    "lint": "eslint **/*.js --quiet"
   },
   "repository": {
     "type": "git",
